@@ -4,9 +4,10 @@ public class Point {
 	private float x;
 	private float y;
 	
-	
 	@Override
 	public String toString() {
 		return "X: " + this.x + "Y:" + this.y;
+		
+		
 }
 }

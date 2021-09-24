@@ -10,15 +10,14 @@ public class PrimeNumbers {
 		int sayi = klavye.nextInt();
 		int sayac = 0;
 		if (sayi < 1) {
-			System.out.println("Sadece '1' den buyuk sayilar, asal sayi olabilir!");
+			System.out.println("Sadece 1 den buyuk sayilar, asal sayi olabilir!");
 		} else {
-			for (int i = 1; i <= sayi; i++) {
-				int kalan = sayi % i;
-				if (kalan == 0) {
+			for (int i = 2; i < sayi; i++) {
+				if (sayi % i == 0) {
 					sayac++;
 				}
 			}
-			if (sayac == 2) {
+			if (sayac == 0) {
 				System.out.println("Sayi asaldir");
 			} else {
 				System.out.println("Sayi asal degildir");
