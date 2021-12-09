@@ -1,4 +1,4 @@
-package sınav.hazirlik;
+package com.bilgeadam.preparationforexam;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

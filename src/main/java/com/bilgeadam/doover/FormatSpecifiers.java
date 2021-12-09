@@ -1,4 +1,4 @@
-package tekrar;
+package com.bilgeadam.doover;
 
 public class FormatSpecifiers {
 	//% [flags] [width] [.precision] [argsize] typechar
